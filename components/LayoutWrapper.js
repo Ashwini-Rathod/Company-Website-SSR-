@@ -1,10 +1,8 @@
-import HomeLayout from "./Layouts/HomeLayout";
 import RawLayout from "./Layouts/RawLayout";
 import CsLayout from "./Layouts/CsLayout";
 import SbLayout from "./Layouts/SbLayout";
 
 const layouts = {
-  home: HomeLayout,
   raw: RawLayout,
   cs: CsLayout,
   sb: SbLayout,
@@ -18,7 +16,7 @@ const LayoutWrapper = (props) => {
     return <Layout {...props}>{props.children}</Layout>;
   }
   // if not render children with fragment
-  return <HomeLayout {...props}>{props.children}</HomeLayout>;
+  return <SbLayout {...props}>{props.children}</SbLayout>;
 };
 
 export default LayoutWrapper;

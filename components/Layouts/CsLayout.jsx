@@ -1,7 +1,6 @@
 import CsNav from "../Navigation/CsNav";
 import Head from "next/head";
 const CsLayout = (props) =>{
-    console.log(props.children);
     return (
         <>
         <Head>

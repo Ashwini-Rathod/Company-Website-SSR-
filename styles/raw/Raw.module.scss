@@ -1,0 +1,163 @@
+.short-intro{ 
+    // border: 2px solid black;
+    color:  rgba(0,0,0,.8);
+    width: 70%;
+    margin: 80px auto;
+    font-size: 18px;
+    text-align: center;
+}
+.banner-main{
+    color: white;
+    height: 80vh;
+    background-color: black;
+    background-image: url("https://www.raweng.com/v3/assets/bltaacb6b0c9b693c2d/blte86401d468e74845/5e3137f08f7e217daef66f54/Landing_Page_Image_Motion.jpg?format=pjpg&width=540");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.what-we-do:nth-of-type(2n){
+    flex-direction: row-reverse;
+}
+.what-we-do{
+    height: 60vh;
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    // border: 2px solid black;
+}
+.latest-work{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.testimonials{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    // border: 2px solid black;
+}
+.testimonials-div{
+    margin-bottom: 60px;
+    border-radius: 15px;
+    align-self: center;
+    text-align: center;
+    border: 2px solid rgb(223, 211, 211);
+    height: 50vh;
+    width: 45%;
+}
+.testimonials-div h3, .testimonials-div h5{
+    margin: 0px;
+}
+.testimonials-div h5, .testimonials-div p{
+    color: rgb(73, 70, 70);
+}
+.testimonials-div p{
+    margin: 20px auto;
+    width: 80%;
+    font-size: 15px;
+}
+.test-img{
+    margin-top: 60px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+.banner{
+    padding-top:80px;
+    margin-left: 150px;
+    // border: 2px solid white;
+    width: 50%;
+}
+.banner-heading{
+    font-size: 60px;
+}
+.banner-sub{
+    width: 70%;
+    line-height: 28px;
+    // border: 1px solid white;
+    font-size: 20px;
+}
+.btn-div{
+    margin-top: 30px;
+    text-align: center;
+}
+.btn{
+    outline: none;
+    font-size: 20px;
+    background-color: #0069d9;
+    color: white;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 25px;
+    &:hover{
+        font-size: 21px;
+    }
+
+}
+.title{
+    text-align: center;
+    color: #fc3838;
+}
+.hr-title{
+    width: 7%;
+    height: 3px;
+    background-color: #fc3838;
+    border: #fc3838;
+}
+.what-we-do-main{
+    margin-top: 50px;
+}
+.wwd-image, .wwd-content{
+    // border: 2px solid black;
+    width: 48%;
+    height: 100%;
+}
+.wwd-heading{
+    font-size: 40px;
+}
+.wwd-image img{
+    width: 100%;
+    height: 100%;
+}
+.more{
+    color: #0069d9;
+    &:hover{
+        font-size: 17px;
+    }
+}
+.lw-container{
+    margin-top: 50px;
+    // border: 2px solid black;
+    width: 27vw;
+    height: 50vh;
+    &:hover{
+        height: 52vh;
+        width: 28vw;
+    }
+}
+.view-more{
+    color: #0069d9;
+    &:hover{
+        font-size: 14px;
+    }
+}
+.lw-title{
+    color:  rgb(160, 156, 156);
+}
+.lw-title, .view-more{
+    font-size: 13px;
+}
+.lw-image{
+    width: 100%;
+    height: 60%
+}
+.lw-title, .lw-cs{
+    margin: 0px;
+}
+
+

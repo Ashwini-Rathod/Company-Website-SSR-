@@ -1,0 +1,55 @@
+.footer{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+.btn{
+    outline: none;
+    font-size: 20px;
+    background-color: #0069d9;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 25px;
+    &:hover{
+        font-size: 21px;
+    }
+}
+.head{
+    padding: 50px;
+    // border: 2px solid red;
+    text-align: center;
+}
+.head h1, .head button{
+    margin: 25px;
+}
+.container{
+    margin: auto;
+    width: 95%;
+    // border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.privacy-div{
+    font-size: 15px;
+    width: 50%;
+    justify-content: space-between;
+    // border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+}
+.privacy-div div{
+    &:hover{
+        color: blue;
+    }
+}
+.copyright p{
+    font-size: 15px;
+}
+.copyright img{
+    width: 70px;
+    height: 70px;
+}

@@ -1,0 +1,125 @@
+.image{
+    width: 100%;
+    height: 50vh;
+}
+.portfolio-main{
+    width: 90%;
+    // border: 2px solid black;
+    margin: auto;
+}
+// .main-container{
+//     width: 100%;
+//     border: 2px solid black;
+//     margin: auto;
+// }
+.company-image{
+    width: 100%;
+    height: 70%;
+}
+.portfolio-h1, .team-h1, .philosophy-h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.portfolio-container{
+    width: 100%;
+
+}
+.portfolio-image{
+    width: 100%;
+}
+.company-heading{
+    font-size: 28px;
+}
+.company-content{
+    line-height: 26px;
+}
+.company-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    // border: 2px solid black;
+}
+.team-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid rgb(223, 211, 211);;
+}
+.team-image{
+    width: 80%;
+    height: 100%;
+    border-radius: 15px;
+}
+.team-image-div{
+    width: 30%;
+    text-align: center;
+}
+.team-content{
+    text-align: start;
+    // border: 2px solid black;
+    width: 70%;
+}
+.team-main{
+    margin: auto;
+    width: 75%;
+    // border: 2px solid black;
+}
+.philosophy-main{
+    width: 85%;
+    margin: auto;
+    // border: 2px solid black;
+}
+
+.philosophy-content{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    border: 1px solid  rgb(223, 211, 211);
+    width: 50%;
+    padding: 10px 30px;
+    height: 100%;
+    border-radius: 15px;
+}
+.philosophy-img{
+    width: 20vh;
+    height: 20vh;
+    margin-bottom: 30px;
+}
+.philosophy-h2{
+    margin-bottom: 20px;
+}
+.philosophy-container{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+
+    // height: 70vh;
+    // justify-content: space-between;
+    // border: 2px solid blue;
+}
+
+.btn-div{
+    margin-top: 30px;
+    text-align: center;
+}
+.btn{
+    outline: none;
+    font-size: 22px;
+    background-color: #28c8dc;
+    color: white;
+    padding: 12px 70px;
+    border: none;
+    border-radius: 25px;
+    &:hover{
+        font-size: 23px;
+    }
+
+}

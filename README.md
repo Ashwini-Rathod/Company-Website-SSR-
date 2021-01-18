@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project which implements server side rendering(SSR) and application for single side rendering.
 
-## Getting Started
+The application renders the following three pages:
 
-First, run the development server:
+# Surfboard Ventures:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+This page displays the data about Surfboard Ventures. It has a navigation bar that will direct the user either to Raw Engineering's page or Contentstack's page.
+The main body consists of all the information related to Surfboard Ventures. It consits of a footer with all the relevant data and social media icons.
+
+# Raw Engineering:
+
+This page displays the data about Raw Engineering. The navigation bar here consits of a Home button which will take the user back to the Home page i.e, Surfboard Ventures page. The main body consists of all the information related to Raw Engineering. It consists of a footer with all the relevant data and social media icons.
+
+# Contentstack:
+
+This page displays the data about Contentstack. The navigation bar consits of a Home button which will take the user back to the Home page i.e, Surfboard Ventures page. The main body consists of all the information related to Contentstack. It consists of a footer with all the relevant data and social media icons.
+
+# Data Storage:
+
+The data for all the three companies was saved in a static file and the file has been hosted on GitHub Pages.
+
+# Navigation:
+
+The navigation has been enabled using next.js folder structure. The pages folder in the root directory consists of three pages each belonging to the respective company. As, the home page here was Surfboard Ventures, index.js file consists of all the relevent data for the same. Raw Engineering and Contentstack has two pages named raw-engineering and contentstack respectively. 
+
+# Running the Application:
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

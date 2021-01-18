@@ -1,7 +1,6 @@
 import { Component } from "react";
 import axios from "axios";
 import Footer from "../../components/Foooter/csFooter";
-// import { fixed } from "*.jpg";
 import styles from "../../styles/cs/Cs.module.scss";
 const url = "https://ashwini-rathod.github.io/Data-surfboard/contentstack.json"
 

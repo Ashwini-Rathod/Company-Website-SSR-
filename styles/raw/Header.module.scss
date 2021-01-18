@@ -19,3 +19,9 @@
         font-size: 17px;
     }
 }
+@media(max-width: 300px){
+    .nav-div{
+        flex-direction: column;
+        padding: 0px 0px;
+    }
+}

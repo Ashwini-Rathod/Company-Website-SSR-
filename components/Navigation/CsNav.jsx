@@ -14,41 +14,10 @@ const CsNav = (props) =>{
                         <a className={styles["home"]}>Home</a>
                     </Link>
                 </li>
-                {/* <li>Product</li>
-                <li>Education</li>
-                <li>Partners</li>
-                <li>Company</li>
-                <li>Pricing</li>
-                <li>Try for free</li>
-                {/* <li>
-                    <Link href =  "/raw-engineering">
-                        <a>Raw engineering</a>
-                    </Link>
-                </li> */}
                 </ul>
-                {/* <style jsx>{
-                `
-                .nav-container{
-                    display: flex;
-                    justify-content: space-between;
-                }
-                `
-                } */}
-
-                {/* </style> */}
             </nav>
       
         </div>
-        {/* <div className={styles["inner-nav"]}>
-            <ul>
-                <li>Product</li>
-                <li>Education</li>
-                <li>Partners</li>
-                <li>Company</li>
-                <li>Pricing</li>
-                <li className={styles["try"]}>Try for free</li>
-            </ul>
-        </div> */}
         <div className={styles["banner-heading"]}>
             <h1>Finally, A Modern Content Management System</h1>
             <p>Contentstack brings business and technology teams together to deliver personalized, omnichannel digital experiences.</p>

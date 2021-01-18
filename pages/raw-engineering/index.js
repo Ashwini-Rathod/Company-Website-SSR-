@@ -3,22 +3,19 @@ import axios from "axios";
 import Footer from "../../components/Foooter/rawFooter";
 import styles from "../../styles/raw/Raw.module.scss";
 const url = "https://ashwini-rathod.github.io/Data-surfboard/raw-engineering.json";
-// import Slider from "../../components/Slider";
 
 class RawEngineering extends Component{
     render(){
-        // console.log("Props", this.props.raw);
         return(
             <>
                 <div className={styles["banner-main"]}>
                     <div className={styles["banner"]}>
                         <h1 className={styles["banner-heading"]}>{this.props.raw[0].title}</h1>
                         <p className={styles["banner-sub"]}>{this.props.raw[0].subtitle}</p>
-                        </div>
                     </div>
+                </div>
                 <div className={styles["short-intro"]}>
                     <p>{this.props.raw[0].shortIntro}</p>
-                    {/* <Slider/> */}
                     <div className={styles["btn-div"]}>
                         <button className={styles["btn"]}>Learn More</button>
                     </div>
@@ -106,14 +103,11 @@ RawEngineering.layout = "raw";
 
 export const getStaticProps = async () =>{
     let { data } = await axios.get(url);
-    // console.log("Data", data);
     return {
         props: {
             raw: [...data],
         }
     }
 }
-
-//using getStaticprops, make an api call to the backend to fetch all the raw eng related data.
 
 export default RawEngineering;

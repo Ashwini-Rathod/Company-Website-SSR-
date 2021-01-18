@@ -1,10 +1,6 @@
 import '../styles/globals.css';
 import App from "next/app";
-// import {Component } from "react";
 import LayoutWrapper from "../components/LayoutWrapper";
-// function MyApp({ Component, pageProps }) {
-//   return <Component {...pageProps} />
-// }
 
 class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {

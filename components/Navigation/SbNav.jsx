@@ -1,8 +1,9 @@
 import Link from "next/link";
 import styles from "../../styles/surfboard/Header.module.scss";
+
 const SbNav = (props) =>{
     return(
-        <div>
+        <div className={styles["header"]}>
             <div className={styles["container"]}>
                 <div className={styles["nav-div"]}>
                     <div className={styles["nav-logo"]}>

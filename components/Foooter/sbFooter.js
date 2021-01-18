@@ -1,6 +1,5 @@
 import styles from "../../styles/surfboard/Footer.module.scss";
 import { SocialIcon } from "react-social-icons";
-import Link from "next/link";
 
 function Footer (){
     return(
@@ -26,11 +25,11 @@ function Footer (){
                 <p className={styles["p-tag"]}> info@surfboardadventures.com</p>
             </div>
             <div>
-                 <SocialIcon network="facebook" style={{ height: 25, width: 25, margin: "3px"}} />
-                 <SocialIcon network="linkedin" style={{ height: 25, width: 25, margin: "3px"}} />     
-                 <SocialIcon network="twitter" style={{ height: 25, width: 25, margin: "3px"}} />  
-                 <SocialIcon network="youtube" style={{ height: 25, width: 25, margin: "3px"}} />      
-                 <SocialIcon network="instagram" style={{ height: 25, width: 25, margin: "3px"}} />   
+                 <SocialIcon network="facebook" style={{ height: 25, width: 25, margin: "3px"}} className={styles["sm"]} />
+                 <SocialIcon network="linkedin" style={{ height: 25, width: 25, margin: "3px"}} className={styles["sm"]} />     
+                 <SocialIcon network="twitter" style={{ height: 25, width: 25, margin: "3px"}} className={styles["sm"]} />  
+                 <SocialIcon network="youtube" style={{ height: 25, width: 25, margin: "3px"}}  className={styles["sm"]}/>      
+                 <SocialIcon network="instagram" style={{ height: 25, width: 25, margin: "3px"}} className={styles["sm"]} />   
             </div>
         </div>
         <br/>

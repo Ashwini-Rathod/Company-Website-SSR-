@@ -2,22 +2,22 @@
     background-image: url("https://images.contentstack.io/v3/assets/blt137524604e62b5cb/blt971bfb34d4e547b8/5f50e9400ab106265a188450/Home-hero-banner-new@3x.png?auto=webp&quality=100&format=pjpg") ;
     background-size: cover;
     background-position: center;
-    // width: 100%;
+    width: 100%;
     height: 100vh;
     margin: auto;
-    // border: 2px solid black;
+}
+.header{
+    margin-bottom: 100px;
 }
 .banner-content{
     margin-top: 120px;
     margin-left: 70px;
     width: 70%;
-    // border: 2px solid black;
 }
 .banner-heading{
     font-size: 58px;
 }
 .banner-sub{
-    // border: 2px solid black;
     width: 80%;
     font-size: 22px;
     line-height: 35px;
@@ -28,7 +28,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 0px;
-    // border: 1px solid black;
 }
 .nav-container{
     margin-right: 50px;
@@ -36,7 +35,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    // border: 1px solid black;
     list-style: none;
 }
 .nav-links{
@@ -55,5 +53,48 @@
 }
 .sb-logo{
     margin-left: 50px;
+}
+@media(max-width: 750px){
+    .container{
+        height: auto;
+    }
+    .nav-div{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .nav-logo{
+        margin-left: 0px;
+    }
+    .sb-logo{
+        margin-left: 0px;
+    }
+    .banner-heading{
+        font-size: 6vh;
+    }
+    .banner-sub{
+        font-size: 3vh;
+        line-height: 20px;
+    }
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+        line-height: 30px;
+        margin-right: 0px;
+    }
+}
+@media(max-width: 1000px){
+    .banner-content{
+        margin-top: 10vh;
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+@media(max-width: 300px){
+    .banner-heading {
+        font-size: 4vh;
+    }
+    .banner-sub{
+        font-size: 3vh;
+    }
 }
 

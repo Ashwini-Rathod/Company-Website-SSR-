@@ -15,16 +15,6 @@ const RawNav = (props) =>{
                         <a className={styles["nav-links"]}>Home</a>
                     </Link>
                 </li>
-                {/* <li>
-                    <Link href =  "/contentstack">
-                        <a className={styles["nav-links"]}>Contentstack</a>
-                    </Link>
-                </li> */}
-                {/* <li>
-                    <Link href = "/surfboard">
-                        <a>Surfboard</a>
-                    </Link>
-                </li> */}
                 </ul>
             </nav>
         </div>

@@ -1,0 +1,266 @@
+.short-intro {
+  color: rgba(0, 0, 0, 0.8);
+  width: 70%;
+  margin: 80px auto;
+  font-size: 18px;
+  text-align: center;
+}
+
+.banner-main {
+  color: white;
+  height: 80vh;
+  background-color: black;
+  background-image: url("https://www.raweng.com/v3/assets/bltaacb6b0c9b693c2d/blte86401d468e74845/5e3137f08f7e217daef66f54/Landing_Page_Image_Motion.jpg?format=pjpg&width=540");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.what-we-do:nth-of-type(2n) {
+  flex-direction: row-reverse;
+}
+
+.what-we-do {
+  height: 60vh;
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.latest-work {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.testimonials {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.testimonials-div {
+  margin-bottom: 60px;
+  border-radius: 15px;
+  align-self: center;
+  text-align: center;
+  border: 2px solid #dfd3d3;
+  height: 50vh;
+  width: 45%;
+}
+
+.testimonials-div h3, .testimonials-div h5 {
+  margin: 0px;
+}
+
+.testimonials-div h5, .testimonials-div p {
+  color: #494646;
+}
+
+.testimonials-div p {
+  margin: 20px auto;
+  width: 80%;
+  font-size: 15px;
+}
+
+.test-img {
+  margin-top: 60px;
+  border: 1px solid red;
+  border-radius: 50%;
+}
+
+.banner {
+  padding-top: 80px;
+  margin-left: 150px;
+  width: 50%;
+}
+
+.banner-heading {
+  font-size: 60px;
+}
+
+.banner-sub {
+  width: 70%;
+  line-height: 28px;
+  font-size: 20px;
+}
+
+.btn-div {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.btn {
+  outline: none;
+  font-size: 20px;
+  background-color: #0069d9;
+  color: white;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 25px;
+}
+
+.btn:hover {
+  font-size: 21px;
+}
+
+.title {
+  text-align: center;
+  color: #fc3838;
+}
+
+.hr-title {
+  width: 7%;
+  height: 3px;
+  background-color: #fc3838;
+  border: #fc3838;
+}
+
+.what-we-do-main {
+  margin-top: 50px;
+}
+
+.wwd-image, .wwd-content {
+  width: 48%;
+  height: 100%;
+}
+
+.wwd-heading {
+  font-size: 40px;
+}
+
+.wwd-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.more {
+  color: #0069d9;
+}
+
+.more:hover {
+  font-size: 17px;
+}
+
+.lw-container {
+  margin-top: 50px;
+  width: 27vw;
+  height: 50vh;
+}
+
+.lw-container:hover {
+  height: 52vh;
+  width: 28vw;
+}
+
+.view-more {
+  color: #0069d9;
+}
+
+.view-more:hover {
+  font-size: 14px;
+}
+
+.lw-title {
+  color: #a09c9c;
+}
+
+.lw-title, .view-more {
+  font-size: 13px;
+}
+
+.lw-image {
+  width: 100%;
+  height: 60%;
+}
+
+.lw-title, .lw-cs {
+  margin: 0px;
+}
+
+@media (max-width: 1050px) {
+  .banner-sub {
+    width: 100%;
+    font-size: 12px;
+  }
+  .banner-heading {
+    width: 100%;
+    font-size: 30px;
+  }
+  .what-we-do {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 50px 0px;
+  }
+  .what-we-do:nth-of-type(2n) {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .wwd-heading {
+    font-size: 25px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .latest-work {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .lw-container {
+    margin-top: 50px;
+    width: 70%;
+    height: 60vh;
+  }
+  .testimonials {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .testimonials-div {
+    height: auto;
+    width: 80%;
+  }
+}
+
+@media (max-width: 650px) {
+  .banner-main {
+    background-position: left;
+    height: auto;
+    background-size: cover;
+  }
+  .banner-heading {
+    font-size: 20px;
+  }
+  .banner-sub {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .banner {
+    padding-top: 200px;
+    margin-left: 0px;
+    text-align: center;
+    width: 100%;
+  }
+  .btn {
+    font-size: 15px;
+    padding: 8px 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .lw-container {
+    margin-top: 25px;
+    width: 60%;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=Raw.module.css.map */

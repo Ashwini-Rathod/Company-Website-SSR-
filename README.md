@@ -25,7 +25,26 @@ The navigation has been enabled using next.js folder structure. The pages folder
 
 # Running the Application:
 
+ Navigate into Frontend folder.\
+  Then run this command only once:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+      npm install
+
+  To install all the dependencies.
+
+  Then run the command:
+
+      npm run start
+
+  Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  
+  
+  The application is also hosted on vercel.
+
+  Live Link for the same is provided below.
+
+  Link for application[https://company-website-ssr.vercel.app/]
+
+
 
 

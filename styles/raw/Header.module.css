@@ -1,0 +1,31 @@
+.nav-div {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+.nav-container {
+  list-style: none;
+}
+
+.nav-container:hover {
+  font-size: 17px;
+}
+
+@media (max-width: 300px) {
+  .nav-div {
+    flex-direction: column;
+    padding: 0px 0px;
+  }
+}
+/*# sourceMappingURL=Header.module.css.map */

@@ -1,0 +1,162 @@
+.image {
+  width: 100%;
+  height: 50vh;
+}
+
+.portfolio-main {
+  width: 90%;
+  margin: auto;
+}
+
+.company-image {
+  width: 100%;
+  height: 70%;
+}
+
+.portfolio-h1, .team-h1, .philosophy-h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.portfolio-container {
+  width: 100%;
+}
+
+.portfolio-image {
+  width: 100%;
+}
+
+.company-heading {
+  font-size: 28px;
+}
+
+.company-content {
+  line-height: 26px;
+}
+
+.company-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.team-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid #dfd3d3;
+}
+
+.team-image {
+  width: 80%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.team-image-div {
+  width: 30%;
+  text-align: center;
+}
+
+.team-content {
+  text-align: start;
+  width: 70%;
+}
+
+.team-main {
+  margin: auto;
+  width: 75%;
+}
+
+.philosophy-main {
+  width: 85%;
+  margin: auto;
+}
+
+.philosophy-content {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+  border: 1px solid #dfd3d3;
+  width: 50%;
+  padding: 10px 30px;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.philosophy-img {
+  width: 20vh;
+  height: 20vh;
+  margin-bottom: 30px;
+}
+
+.philosophy-h2 {
+  margin-bottom: 20px;
+}
+
+.philosophy-container {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+}
+
+.btn-div {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.btn {
+  outline: none;
+  font-size: 22px;
+  background-color: #28c8dc;
+  color: white;
+  padding: 12px 70px;
+  border: none;
+  border-radius: 25px;
+}
+
+.btn:hover {
+  font-size: 23px;
+}
+
+@media (max-width: 750px) {
+  .company-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .team-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 550px) {
+  .philosophy-content {
+    width: 90%;
+  }
+  .btn {
+    font-size: 15px;
+    padding: 6px 10px;
+  }
+}
+
+@media (max-width: 250px) {
+  .philosophy-main, .team-main {
+    width: 100%;
+  }
+  .portfolio-h1, .philosophy-h1, .team-h1 {
+    font-size: 5vh;
+  }
+  .company-heading {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=Sb.module.css.map */

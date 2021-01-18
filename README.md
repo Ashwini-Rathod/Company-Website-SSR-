@@ -41,7 +41,7 @@ The navigation has been enabled using next.js folder structure. The pages folder
   
   The application is also hosted on vercel.
 
-  Link for [https://company-website-ssr.vercel.app/](application).
+  Link for [application](https://company-website-ssr.vercel.app/).
 
 
 

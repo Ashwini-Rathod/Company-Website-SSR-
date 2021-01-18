@@ -1,54 +1,67 @@
 import styles from "../../styles/cs/Footer.module.scss";
+import { SocialIcon } from "react-social-icons";
 
 function Footer(){
     return(
+        <>
         <div className={styles["container"]}>
-            <div>
-                <img src="https://images.contentstack.io/v3/assets/bltc5a09bf374882538/blt954cedac0397edba/5f1a2be1d0350a5e2a2fde71/contentstack-footer-logo.png"></img>
-                <p>Social media icons</p>
+            <div className={styles["logo-sm"]}>
+                <div>
+                    <img src="https://images.contentstack.io/v3/assets/bltc5a09bf374882538/blt954cedac0397edba/5f1a2be1d0350a5e2a2fde71/contentstack-footer-logo.png" className={styles["logo"]}></img>
+                </div>
+                <div>
+                    <SocialIcon network="twitter" style={{ height: 30, width: 35 }} fgColor= "black" bgColor= "transparent"  className={styles["social-icons"]}/>  
+                    <SocialIcon network="linkedin" style={{ height: 30, width: 35}}  fgColor= "black" bgColor= "transparent" className={styles["social-icons"]}/>     
+                    <SocialIcon network="facebook" style={{ height: 30, width: 35}}  fgColor= "black" bgColor= "transparent" className={styles["social-icons"]}/>    
+                    <SocialIcon network="youtube" style={{ height: 30, width: 35}}  fgColor= "black" bgColor= "transparent" className={styles["social-icons"]}/> 
+                    <SocialIcon network="github" style={{ height: 30, width: 35}} fgColor= "black" bgColor= "transparent" className={styles["social-icons"]}/> 
+
+                </div>
             </div>
-            <div>
-                <p>Product</p>
-                <ul>
-                    <li>Features</li>
-                    <li>For IT and Developer</li>
-                    <li>For Business</li>
-                    <li>Integrations</li>
-                    <li>Pricing</li>
-                    <li>ROI Calculator</li>
-                    <li>Customer Success</li>
-                </ul>
+            <div className={styles["product"]}>
+                <h3>Product</h3>
+                {/* <ul> */}
+                    <p>Features</p>
+                    <p>For IT and Developer</p>
+                    <p>For Business</p>
+                    <p>Integrations</p>
+                    <p>Pricing</p>
+                    <p>ROI Calculator</p>
+                    <p>Customer Success</p>
+                {/* </ul> */}
             </div>
-            <div>
-                <p>Users</p>
-                <ul>
-                    <li>Supported Platforms</li>
-                    <li>FAQs</li>
-                    <li>Trust</li>
-                    <li>System Status</li>
-                </ul>
+            <div className={styles["product"]}>
+                <h3>Users</h3>
+                {/* <ul> */}
+                    <p>Supported Platforms</p>
+                    <p>FAQs</p>
+                    <p>Trust</p>
+                    <p>System Status</p>
+                {/* </ul> */}
             </div>
-            <div>
-                <p>Education</p>
-                <ul>
-                    <li>Customer Resources</li>
-                    <li>CMS Guide</li>
-                    <li>Blog</li>
-                    <li>Docs</li>
-                </ul>
+            <div className={styles["product"]}>
+                <h3>Education</h3>
+                {/* <ul> */}
+                    <p>Customer Resources</p>
+                    <p>CMS Guide</p>
+                    <p>Blog</p>
+                    <p>Docs</p>
+                {/* </ul> */}
             </div>
-            <div>
-                <p>Company</p>
-                <ul>
-                    <li>About</li>
-                    <li>News</li>
-                    <li>Press</li>
-                    <li>Careers</li>
-                    <li>Become a Partner</li>
-                    <li>Contact Us</li>
-                </ul>
+            <div className={styles["product"]}>
+                <h3>Company</h3>
+                {/* <ul> */}
+                    <p>About</p>
+                    <p>News</p>
+                    <p>Press</p>
+                    <p>Careers</p>
+                    <p>Become a Partner</p>
+                    <p>Contact Us</p>
+                {/* </ul> */}
             </div>
         </div>
+        <hr/>
+        </>
     )
 }
 

@@ -2,80 +2,91 @@ import { Component } from "react";
 import axios from "axios";
 import Footer from "../../components/Foooter/csFooter";
 // import { fixed } from "*.jpg";
+import styles from "../../styles/cs/Cs.module.scss";
 const url = "https://ashwini-rathod.github.io/Data-surfboard/contentstack.json"
 
-class ContentStack extends Component{
-    render(){
-        let cs= this.props.cs[0];
-        return(
+class ContentStack extends Component {
+    render() {
+        let cs = this.props.cs[0];
+        return (
             <div>
-                {/* <div 
-                    // style={{
-                    //     backgroundImage: "url('https://images.contentstack.io/v3/assets/bltc5a09bf374882538/blt0eac3686a06a4a3f/5f1a2be2ecbff322d09554d6/hero-carousel-1.jpg')",
-                    //     backgroundRepeat: "no-repeat",
-                    //     // backgroundAttachment: "fixed",
-                    //     backgroundPosition: "center",
-                    //     height: "120vh"
-                    // }}
-                >
-                    <h1>{cs.heading}</h1>
-                    <h3>{cs.subHeading}</h3>
-                </div> */}
-                <div>
-                    <h1>Why choose Contentstack</h1>
-                    {
-                        cs.whyChooseContentstack.map((item, i)=>{
-                            return(
-                                <div key={i}>
-                                    <h1>{item.title}</h1>
-                                    <p>{item.content}</p>
-                                </div>
-                            )
-                        })
-                    }
+                <div className={styles["container"]}>
+                    <div className={styles["why-choose-cs-main"]}>
+                        <h1>Why choose Contentstack</h1>
+                    </div>
+                    <div className={styles["why-choose-cs"]}>
+
+                        {
+                            cs.whyChooseContentstack.map((item, i) => {
+                                return (
+                                    <div key={i} className={styles["cs-div"]}>
+                                        <h1>{item.title}</h1>
+                                        <p>{item.content}</p>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
                 </div>
-               <div>
-                   <div>
+                <div className={styles["use"]}>
+                    <div className={styles["for-it"]}>
                         {
-                            cs.forIT.map((item, i)=>{
-                                return(
-                                    <div key={i}> 
+                            cs.forIT.map((item, i) => {
+                                return (
+                                    <div key={i} className={styles["content"]}>
                                         <h1>{item.title}</h1>
                                         <p>{item.content}</p>
+                                        <button className={styles["btn"]}>Learn More</button>
                                     </div>
                                 )
                             })
                         }
-                   </div>
-                   <div>
+                    </div>
+                    <div className={styles["for-business"]}>
                         {
-                            cs.forBusiness.map((item, i)=>{
-                                return(
-                                    <div key={i}>
+                            cs.forBusiness.map((item, i) => {
+                                return (
+                                    <div key={i} className={styles["content"]}>
                                         <h1>{item.title}</h1>
                                         <p>{item.content}</p>
+                                        <button className={styles["btn"]}>Learn More</button>
                                     </div>
                                 )
                             })
                         }
-                   </div>
-               </div>
-               <div>
-                   {
-                       cs.features.map((item, i)=>{
-                           return(
-                               <div key={i}>
-                                    <h1>{item.title}</h1>
-                                    <p>{item.content}</p>
-                               </div>
-                           )
-                       })
-                   }
-               </div>
-               <div>
-                   <img src="https://images.contentstack.io/v3/assets/bltc5a09bf374882538/blta8ec620b53524f45/5f1a2bd31db8ad781814787d/download.jpg"></img>
-               </div>
-               <Footer/>
+                    </div>
+                </div>
+                <div className={styles["container"]}>
+                    <div className={styles["why-choose-cs-main"]}>
+                        <h1>Features</h1>
+                    </div>
+                    <div className={styles["features"]}>
+                        {
+                            cs.features.map((item, i) => {
+                                return (
+                                    <div key={i} className={styles["feature"]}>
+                                        <h1>{item.title}</h1>
+                                        <p>{item.content}</p>
+                                        <img src={item.image} alt=""></img>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                    <div className={styles["btn-div"]}>
+                        <button className={styles["features-btn"]}>More Features</button>
+                    </div>
+                </div>
+                <div className={styles["container"]}>
+                    <div className={styles["try-for-free"]}>
+                        <div className={styles["try-container"]}>
+                            <h1>TRY IT TO BELIEVE IT</h1>
+                            <button className={styles["request"]}>REQUEST A DEMO</button>
+                            <button className={styles["try"]}>TRY FOR FREE</button>
+                        </div>
+                    </div>
+                </div>
+                <Footer />
             </div>
         )
     }
@@ -83,7 +94,7 @@ class ContentStack extends Component{
 
 ContentStack.layout = "cs";
 
-export const getStaticProps = async () =>{
+export const getStaticProps = async () => {
     let { data } = await axios.get(url);
     return {
         props: {

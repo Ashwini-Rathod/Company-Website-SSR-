@@ -1,0 +1,197 @@
+.try-for-free{
+    background-image: url("https://images.contentstack.io/v3/assets/bltc5a09bf374882538/blta8ec620b53524f45/5f1a2bd31db8ad781814787d/download.jpg");
+    height: 40vh;
+    background-position: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    // border: 2px solid white;
+}
+.try-container{
+    padding-top: 30px;
+    // border: 2px solid white;
+    width: 50%;
+    margin: auto;
+}
+.try-container h1{
+    font-size: 40px;
+    // border: 1px solid red;
+    // margin-top: 50px;
+}
+.try{
+    background-color: transparent;
+    color: white;
+    padding: 10px 40px;
+    // display: inline;
+    border: 4px solid #eb5646;
+    &:hover{
+        cursor: pointer;
+        transition: 0.3s;
+        background-color: #eb5646;
+    }
+}
+.try, .request{
+    margin: 10px 20px;
+    font-size: 15px;
+}
+.request{
+    background-color:#eb5646;
+    color: white;
+    padding: 10px 40px;
+    // display: inline;
+    border: 4px solid #eb5646;
+    &:hover{
+        cursor: pointer;
+        transition: 0.5s;
+        background-color: transparent;
+    }
+}
+.why-choose-cs-container{
+    margin-top: 100px;
+}
+.why-choose-cs-main{
+    color: white;
+    text-align: center;
+    max-height: 300px;
+    // border: 2px solid blue;
+    background: linear-gradient(75deg,#5a20b9,#eb5646),linear-gradient(180deg,rgba(0,0,0,.5),rgba(0,0,0,.5))
+}
+.why-choose-cs-main h1{
+    padding: 40px;
+    font-size: 40px;
+}
+.why-choose-cs, .why-choose-cs-main{
+    margin: 0px;
+}
+.why-choose-cs{
+    // border: 10px solid black;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    // flex-wrap: wrap;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    width: 80%;
+    // height: 60vh;
+    margin: auto;
+}
+.cs-div{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    width: 50%;
+    height: 60vh;
+    // box-shadow: 0px 5px 8px gray;
+}
+.cs-div h1, .cs-div p{
+    color: #444;
+    // border: 1px solid red;
+    width: 90%;
+    margin: 25px auto;
+}
+.cs-div h1{
+    margin-top: 60px;
+    font-size: 28px;
+}
+.cs-div p{
+    font-size: 22px;
+}
+.use{
+    margin-top: 100px;
+    background-image: url("https://images.unsplash.com/photo-1496205856088-91b021308c54?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzR8fGJsYWNrJTIwYmFja2dyb3VuZCUyMHdpdGglMjBsaWdodHN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.for-it, .for-business{
+    margin-top: 40px;
+    height: 60vh;
+    width: 20%;
+    // border: 2px solid white;
+}
+.for-it{
+    margin-left: 50px;
+}
+.for-business{
+    margin-right: 50px;
+}
+.content h1{
+    // width: 70%;
+    font-size: 40px;
+    font-weight: 30px;
+}
+.content p{
+    margin-top: 50px;
+    font-size: 25px;
+}
+.btn{
+    font-size: 18px;
+    background-color:#eb5646;
+    color: white;
+    padding: 10px 40px;
+    display: inline;
+    border: 4px solid #eb5646;
+    &:hover{
+        cursor: pointer;
+        transition: 0.5s;
+        background-color: transparent;
+    }
+}
+.features{
+    width: 90%;
+    margin : auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    // border: 2px solid black;
+}
+.feature{
+    margin: 20px 0px;
+    // border: 2px solid black;
+    width: 45%;;
+    // height: 50vh;
+}
+.feature p{
+    font-size: 18px;
+}
+.feature img{
+    width: 100%;
+    height: 40%;
+}
+.btn-div{
+    margin-top: 50px;
+    text-align: center;
+}
+.features-btn{
+    font-size: 18px;
+    background-color:#eb5646;
+    color: white;
+    padding: 10px 40px;
+    display: inline;
+    border: 4px solid #eb5646;
+    &:hover{
+        cursor: pointer;
+        transition: 0.5s;
+        background-color: transparent;
+        color: #eb5646;
+    }
+}
+.container{
+    margin-top: 100px;
+}
+
+
+

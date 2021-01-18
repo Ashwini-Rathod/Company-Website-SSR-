@@ -14,7 +14,7 @@ const CsNav = (props) =>{
                         <a className={styles["home"]}>Home</a>
                     </Link>
                 </li>
-                <li>Product</li>
+                {/* <li>Product</li>
                 <li>Education</li>
                 <li>Partners</li>
                 <li>Company</li>

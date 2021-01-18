@@ -3,7 +3,7 @@ import axios from "axios";
 import Footer from "../../components/Foooter/rawFooter";
 import styles from "../../styles/raw/Raw.module.scss";
 const url = "https://ashwini-rathod.github.io/Data-surfboard/raw-engineering.json";
-import Slider from "../../components/Slider";
+// import Slider from "../../components/Slider";
 
 class RawEngineering extends Component{
     render(){

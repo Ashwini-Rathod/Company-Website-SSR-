@@ -15,7 +15,14 @@
     height: 110vh;
     background-image: url("https://images.contentstack.io/v3/assets/bltc5a09bf374882538/blt0eac3686a06a4a3f/5f1a2be2ecbff322d09554d6/hero-carousel-1.jpg");
 }
+.home{
+    margin-right: 50px;
+    &:hover{
+        color: #eb5646;
+    }
+}
 .logo{
+    margin-left: 50px;
     width: 200px;
     height: 38px;
 }
@@ -52,14 +59,14 @@
     text-align: center;
 }
 .try{
-    background-color: red;
+    background-color:#eb5646;
     color: white;
-    padding: 10px 30px;
+    padding: 10px 40px;
     display: inline;
-    border: 2px solid red;
+    border: 4px solid #eb5646;
     &:hover{
         cursor: pointer;
-        transition: 1s;
+        transition: 0.5s;
         background-color: transparent;
     }
 }
